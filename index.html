@@ -1,0 +1,43 @@
+<!-- Coding this shizz by hand, day one. 7/9/14 -->
+<!DOCTYPE html>
+<html ng-app="projects" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta description="Lawrence Yong UX Design portfolio">
+	<script type="text/javascript" src="//use.typekit.net/iyl3jdk.js"></script>
+	<script type="text/javascript">
+		try {
+			Typekit.load();
+		} catch (e) {}
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<title>Lawrence Yong Portfolio</title>
+</head>
+
+<body>
+	<div class="container" ng-class="panel.panelId">
+		<navigation></navigation>
+		<project-panels></project-panels>
+	</div>
+
+	<!-- JS -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/prefixfree.min.js"></script>
+	<script src="js/analytics.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/konami.js"></script>
+	<script src="js/site.js"></script>
+	<script src="js/projects.js"></script>
+	<script>
+		var easter_egg = new Konami(function () {
+			alert('Konami code!')
+		});
+	</script>
+
+</body>
+
+</html>

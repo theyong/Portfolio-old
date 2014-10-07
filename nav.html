@@ -1,0 +1,45 @@
+<header>
+	<div id="nav">
+		<div class="circle">
+		</div>
+		<nav>
+			<li>
+				<a href="#" class="navitem" ng-class="{current:panel.isSelected(0)}" ng-click="panel.selectTab(0)">About</a>
+			</li>
+			<li>
+				<a href="#" class="navitem" ng-class="{current:panel.workYN()}" ng-click="panel.selectTab(1)">Work</a>
+			</li>
+			<li>
+				<a href="#" class="navitem" ng-class="{current:panel.isSelected(5)}" ng-click="panel.selectTab(5)">Contact</a>
+			</li>
+		</nav>
+	</div>
+</header>
+
+<div id="nav-left" ng-click="panel.prevTab()" ng-show="panel.showOrHide(1)"></div>
+<div id="nav-right" ng-click="panel.nextTab()" ng-show="panel.showOrHide(2)"></div>
+
+<footer>
+	<div class="dots">
+		<ul>
+			<li ng-class="{current:panel.isSelected(0)}">
+				<a ng-click="panel.selectTab(0)">Hello</a>
+			</li>
+			<li ng-class="{current:panel.isSelected(1)}">
+				<a ng-click="panel.selectTab(1)">Hello</a>
+			</li>
+			<li ng-class="{current:panel.isSelected(2)}">
+				<a ng-click="panel.selectTab(2)">Hello</a>
+			</li>
+			<li ng-class="{current:panel.isSelected(3)}">
+				<a ng-click="panel.selectTab(3)">Hello</a>
+			</li>
+			<li ng-class="{current:panel.isSelected(4)}">
+				<a ng-click="panel.selectTab(4)">Hello</a>
+			</li>
+			<li ng-class="{current:panel.isSelected(5)}">
+				<a ng-click="panel.selectTab(5)">Hello</a>
+			</li>
+		</ul>
+	</div>
+</footer>

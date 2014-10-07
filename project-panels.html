@@ -1,0 +1,25 @@
+<div class="content" id="panels" ng-controller="ProjectController as projects">
+	<div class="panel" ng-show="panel.isSelected(0)">
+		<div class="panelContent">
+			<h1> Hi, I&rsquo;m Lawrence. </h1>
+			<h3> I&rsquo;m a UX designer with strengths in visual design and web development.<br> I care about empowering people through good design, and strive to understand people better. 
+					<br>I also like lame jokes. </h3>
+			<h3> Click next to check out my work!</h3>
+		</div>
+	</div>
+	<div class="panel" ng-show="panel.workYN()">
+		<div class="panelContent">
+			<div class="left-half">
+				<h2>{{projects.item[panel.tab-1].name}}</h2>
+				<p>{{projects.item[panel.tab-1].description}}</p>
+				<div class="buttons">
+					<div class="demo button" ng-class="panel.panelId">Demo</div>
+					<div class="details button" ng-class="panel.panelId">View Details</div>
+				</div>
+			</div>
+			<div class="right-half">
+				<img ng-src="{{projects.item[panel.tab-1].img}}" alt="{{projects.item[panel.tab-1].alt}}" id="{{projects.item[panel.tab-1].id}}" />
+			</div>
+		</div>
+	</div>
+</div>

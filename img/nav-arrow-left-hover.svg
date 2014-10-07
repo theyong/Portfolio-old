@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8053) - http://www.bohemiancoding.com/sketch -->
+    <title>Nav arrow 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-8" sketch:type="MSArtboardGroup" transform="translate(-926.000000, -335.000000)" stroke-width="4" stroke="#FFFFFF">
+            <g id="Nav-arrow-2" sketch:type="MSLayerGroup" transform="translate(952.000000, 361.000000) scale(-1, 1) translate(-952.000000, -361.000000) translate(928.000000, 337.000000)">
+                <g id="Rectangle-19-+-Rectangle-20-+-Oval-4" sketch:type="MSShapeGroup">
+                    <circle id="Oval-4" cx="24" cy="24" r="24"></circle>
+                </g>
+                <path d="M26.6649306,17 L26.6649306,31.6649306 L12,31.6649306" id="Path-1" sketch:type="MSShapeGroup" transform="translate(19.209262, 24.209262) rotate(-45.000000) translate(-19.209262, -24.209262) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
